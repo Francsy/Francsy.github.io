@@ -99,10 +99,14 @@ p {
     margin-top: 0px;
     padding-top: 0px;
     background-image: url(/assets/campfire.jpg);
+    padding-bottom: 10px;
+}
 
-    
-
-
+.planetsmain{
+    margin-top: 0px;
+    padding-top: 0px;
+    background-image: url(/assets/fondoespacial.jpg);
+    padding-bottom: 10px;
 }
 
 .bienvenida, .bio {
@@ -113,6 +117,7 @@ p {
     opacity: 100%;
     color: var(--space);
     font-size: 16px;
+    
 }
 
 .welcometitle, .biotitle {
@@ -124,6 +129,7 @@ p {
     font-size: 1.2rem;
 
 }
+
 
 .bio {
     align-items: center;
@@ -138,6 +144,17 @@ p {
     height: auto;
     border-radius: 50%;
 
+}
+
+audio {
+ align-self: center;
+}
+
+video {
+    align-self: center;
+    text-align: center;
+    max-width: 90%;
+    margin:50px 20px;
 }
 
 
@@ -168,11 +185,12 @@ p {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    background-color: rgba(0,0,0,0.8);
     
 }
 .planets>div {
 
-    border: #fe7c24;
+    border: 2px solid var(--outer);
     border-radius: 30px;
     display: flex;
     padding: 0;
@@ -183,6 +201,7 @@ p {
     flex-direction: column;
     
 }
+
 
 .planets>div>img {
     
@@ -212,6 +231,7 @@ p {
     background-image: url(/assets/views.png);
     background-size: 200%;
     background-position: center;
+    
 }
 
 .cuña {
@@ -225,16 +245,20 @@ p {
 .contactsection {
     
     margin: 0px 20vr;
-    padding: 7%;
+    padding: 0 0;
     background-size: 100vw;
     color: var(--space);
     font-size: 16px;
+    text-transform: uppercase;
+
 }
 
-
+form>* {
+    margin: 10px;
+    text-align: center;
+}
 .contacttitle {
     color: var(--outer);
-    opacity: 100%;
     border: 1px solid var(--outer);
     text-align: center;
     padding: 20px;
@@ -245,18 +269,46 @@ p {
 form { display: flex;
     flex-direction: column;
     align-items: center;
-    border: 1px solid var(--outer);
-    background-color: rgba(0,0,0,0.6);    
+    background-color: rgba(0,0,0,0.8);    
     opacity: 90%;
     color: var(--outer);
-    
-    
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-bottom: 0px;
 }
+
+input[type*="submit"] {
+    font-weight: bold;
+    font-size: 30px;
+    border-radius: 20px;
+    padding: 40px;
+}
+
+input[type*="submit"]:hover {
+    background-color: var(--outer);
+} 
+
+input {
+    width: 300px;
+    height:30px;
+}
+#luna, #noluna {
+    width:20px;
+    height: 20px;
+}
+
+
 .barra {
     display: flex;
     flex-direction: row;
 }
 
+
+.alinear {
+    display: flex;
+    flex-direction: column;
+    margin: 50px;
+}
 
 
 footer {
@@ -314,13 +366,18 @@ footer>span {
         margin: 5%;
     }
 
-    .welcometitle, .biotitle {
+    .welcometitle, .biotitle, .contacttitle {
         font-size: 1.4rem;
         opacity: 100%;
     }
 
     p {
         font-size: 1.2rem;
+    }
+
+    .cuña {
+    
+        padding: 5% 0;
     }
 
     .propaganda {
@@ -349,6 +406,15 @@ footer>span {
         font-size: 1.4rem;
     }
 
+    .contactsection {
+    
+        padding: 5%;
+        
+    }
+    form {
+        border: 1px solid var(--outer);
+        border-radius: 20px;
+    }
 }
 
 /* ESCRITORIO */
@@ -386,7 +452,7 @@ footer>span {
         border-radius: 50px;
     }
 
-    .welcometitle, .biotitle {
+    .welcometitle, .biotitle, .contacttitle {
         font-size: 1.9rem;
         padding: 1.1em;
     }
@@ -420,7 +486,20 @@ footer>span {
         font-size: 1.9rem;
         
     }
+
+    .cuña {
+        padding: 5%;
+    }
+    .contactsection {
     
+        padding: 10%;
+        
+    }
+    form {
+        border: 1px solid var(--outer);
+        border-radius: 20px;
+        font-size: 1.5rem
+    }
 }
  
 
