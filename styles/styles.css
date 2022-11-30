@@ -39,10 +39,7 @@ header>img {
 
 header>nav {
     width: 100vw;
-
-
 }
-
 
 header>nav>ul {
 
@@ -60,11 +57,6 @@ header>nav>ul>li {
     font-size: 20px;
     text-transform: capitalize;
     font-size: 16px;
-
-
-
-
-
 }
 
 header>nav>ul>li>a {
@@ -76,18 +68,13 @@ header>nav>ul>li>a {
     font-size: 1.1rem;
     border: 1px solid var(--outer);
     border-radius: 20px;
-
 }
 
-
-
 header>nav>ul>li>a:hover {
-
     color: var(--space);
     background-color: var(--outer);
     cursor: pointer;
     font-weight: bold;
-
 }
 
 p {
@@ -116,8 +103,7 @@ p {
     background-size: 100vw;
     opacity: 100%;
     color: var(--space);
-    font-size: 16px;
-    
+    font-size: 16px; 
 }
 
 .welcometitle, .biotitle {
@@ -127,9 +113,7 @@ p {
     padding: 20px;
     border-radius: 50px;
     font-size: 1.2rem;
-
 }
-
 
 .bio {
     align-items: center;
@@ -143,7 +127,6 @@ p {
     width:80%;
     height: auto;
     border-radius: 50%;
-
 }
 
 audio {
@@ -157,27 +140,20 @@ video {
     margin:50px 20px;
 }
 
-
 .propaganda {
-    
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
     align-items: center;
     align-content:center;
-
 }
 
 .propaganda>img {
-
     width:90vw;
     height: auto;
-
 }
 
-
 .planets {
-
     width: auto;
     height: auto;
     padding: 5% 0;
@@ -185,11 +161,10 @@ video {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    background-color: rgba(0,0,0,0.8);
-    
+    background-color: rgba(0,0,0,0.8)
 }
-.planets>div {
 
+.planets>div {
     border: 2px solid var(--outer);
     border-radius: 30px;
     display: flex;
@@ -199,17 +174,13 @@ video {
     height: auto;
     border: 1px solid var(--outer);
     flex-direction: column;
-    
 }
 
-
-.planets>div>img {
-    
+.planets>div>img { 
     width: 80%;
     height: auto;
     padding: 10px;
-    margin: auto;
-    
+    margin: auto;  
 }
 .planets>div>h2 {
     font-size: 1.2rem;
@@ -218,7 +189,6 @@ video {
     text-align: center;
     padding: 20px;
     border: 1px solid var(--outer);
-
 }  
 
 .planets>div>p {
@@ -231,7 +201,6 @@ video {
     background-image: url(/assets/views.png);
     background-size: 200%;
     background-position: center;
-    
 }
 
 .cuña {
@@ -243,20 +212,19 @@ video {
 }
 
 .contactsection {
-    
     margin: 0px 20vr;
     padding: 0 0;
     background-size: 100vw;
     color: var(--space);
     font-size: 16px;
     text-transform: uppercase;
-
 }
 
 form>* {
     margin: 10px;
     text-align: center;
 }
+
 .contacttitle {
     color: var(--outer);
     border: 1px solid var(--outer);
@@ -264,8 +232,8 @@ form>* {
     padding: 20px;
     border-radius: 50px;
     font-size: 1.2rem;
-
 }
+
 form { display: flex;
     flex-direction: column;
     align-items: center;
@@ -290,26 +258,23 @@ input[type*="submit"]:hover {
 
 input {
     width: 300px;
-    height:30px;
 }
+
 #luna, #noluna {
     width:20px;
     height: 20px;
 }
-
 
 .barra {
     display: flex;
     flex-direction: row;
 }
 
-
 .alinear {
     display: flex;
     flex-direction: column;
     margin: 50px;
 }
-
 
 footer {
     text-align: center;
@@ -333,7 +298,6 @@ footer>span {
 /* TABLET */
 @media screen and (min-width:768px) and (max-width:1024px) {
 
-
     header>img {
         width: 300px;
         height: auto;
@@ -345,12 +309,8 @@ footer>span {
     }
 
     header>nav>ul>li>a {
-
         font-size: 1.3rem;
         padding: 1.1em;
-
-
-
     }
 
     .bienvenida {
@@ -387,10 +347,7 @@ footer>span {
         flex-direction: row;
         align-items: center;
         justify-content: center;
-        align-content: center;
-        
-        
-    
+        align-content: center
     }
     
     .propaganda>img {
@@ -408,10 +365,9 @@ footer>span {
     }
 
     .contactsection {
-    
         padding: 5%;
-        
     }
+
     form {
         border: 1px solid var(--outer);
         border-radius: 20px;
@@ -433,10 +389,8 @@ footer>span {
     }
 
     header>nav>ul>li>a {
-
         font-size: 1.7rem;
         padding: 1.2em;
-
     }
 
     .bienvenida {
@@ -458,8 +412,6 @@ footer>span {
         padding: 1.1em;
     }
 
-
-
     p {
         font-size: 1.4rem;
     }
@@ -468,138 +420,39 @@ footer>span {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
-        padding: 10px;
-        
+        padding: 10px;  
     }
+
     .bio {
         flex: 3.5;
     }
+
     .propaganda {
         flex: 2;
-        margin-top: 80px;
-        
+        margin-top: 80px;   
     }
+
     .propaganda>img {
         width: 350px;
         height: auto;
     }
+
     .planets>div>h2 {
-        font-size: 1.9rem;
-        
+        font-size: 1.9rem; 
     }
 
     .cuña {
         padding: 5%;
         font-size: 1.5rem;
     }
+
     .contactsection {
-    
-        padding: 10%;
-        
+        padding: 10%; 
     }
+
     form {
         border: 1px solid var(--outer);
         border-radius: 20px;
         font-size: 1.5rem
     }
 }
- 
-
-
-
-
-/* header {
-    background-color: var(--space);
-    display: flex;
-    flex-direction:column;
-    align-items: center;
-    text-align: center;
-    margin: 0px;
-    
-}
-
-
-header>img {
-    width: 250px;
-    height: auto;
-}
-
-header>nav>ul {
-
-    list-style-type: none;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    padding-left: 0px;
-
-
-}
-
-header>nav>ul>li {
-    display: inline;
-    padding: 20px;
-    font-size: 20px;
-    text-transform: capitalize;
-    font-size: 16px;
-    
-}
-
-header>nav>ul>li>a {
-    color: #F8F0E0;
-    text-decoration: none;
-    text-transform: capitalize;
-    padding: 3px;
-    margin: 0px;
-    font-size: 1rem;
-
-}
-
-header>nav>ul>li:hover {
-    
-    background-color: var(--space);
-    
-}
-
-header>nav>ul>li>a:hover {
-    color: var(--space);
-    background-color: var(--white);
-    
-}
-
-main {
-    background-image: url(/assets/campfire.jpg);
-    margin-top: 0px;
-}
-
-.titulo {
-    background-color: var(--nasa);
-    color: var(--white);
-    text-align: center;
-    padding: 20px;
-    border-radius: 50px;
-    font-size: 30px;
-}
-
-.bienvenida {
-    margin: 0px 20%;
-    padding: 7%;
-    background-color: #F8F0E0;
-    opacity: 100%;
-    color: var(--space);
-    border-radius: 50px;
-}
-
-footer {
-    text-align: center;
-    background-color: var(--nasa);
-    padding-bottom: 20px;
-    padding-top: 10px;
-    color: #F8F0E0;
-}
-
-footer>span {
-    background-color: var(--white);
-    border-radius: 50%;
-    font-size:70px;
-    padding: 15px;
-} */
