@@ -1,0 +1,524 @@
+* {
+    font-family: Helvetica, Arial, sans-serif;
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+*::before, *::after {
+    border: inherit;
+    margin: inherit;
+    padding: inherit;
+}
+
+:root {
+    --space: #000000;
+    --nasa: #1a2e5c;
+    --outer: #fe7c24;
+    --white: #f8f0e0;
+    --water: #48a9a6;
+}
+
+header {
+    width: 100vw;
+    background-color: var(--space);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+header>img {
+    width: 250px;
+    height: auto;
+}
+
+header>nav {
+    width: 100vw;
+
+
+}
+
+
+header>nav>ul {
+
+    width: 100vw;
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+header>nav>ul>li {
+    display: inline;
+    padding: 10px;
+    font-size: 20px;
+    text-transform: capitalize;
+    font-size: 16px;
+
+
+
+
+
+}
+
+header>nav>ul>li>a {
+    color: var(--outer);
+    text-decoration: none;
+    text-transform: capitalize;
+    padding: 3px;
+    margin: 0px;
+    font-size: 1.1rem;
+    border: 1px solid var(--outer);
+    border-radius: 20px;
+
+}
+
+
+
+header>nav>ul>li>a:hover {
+
+    color: var(--space);
+    background-color: var(--outer);
+    cursor: pointer;
+    font-weight: bold;
+
+}
+
+p {
+    text-align: justify;
+    font-size: 1.1em;
+}
+
+.indexmain {
+    margin-top: 0px;
+    padding-top: 0px;
+    background-image: url(/assets/campfire.jpg);
+
+    
+
+
+}
+
+.bienvenida, .bio {
+    margin: 0px 0px;
+    padding: 7%;
+    background-color: #F8F0E0;
+    background-size: 100vw;
+    opacity: 100%;
+    color: var(--space);
+    font-size: 16px;
+}
+
+.welcometitle, .biotitle {
+    background-color: var(--nasa);
+    color: var(--white);
+    text-align: center;
+    padding: 20px;
+    border-radius: 50px;
+    font-size: 1.2rem;
+
+}
+
+.bio {
+    align-items: center;
+}
+
+.imageintext{
+    text-align: center;
+}
+
+.bio>p>img {
+    width:80%;
+    height: auto;
+    border-radius: 50%;
+
+}
+
+
+.propaganda {
+    
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    align-content:center;
+
+}
+
+.propaganda>img {
+
+    width:90vw;
+    height: auto;
+
+}
+
+
+.planets {
+
+    width: auto;
+    height: auto;
+    padding: 5% 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+.planets>div {
+
+    border: #fe7c24;
+    border-radius: 30px;
+    display: flex;
+    padding: 0;
+    margin: 30px 10px;
+    width: 400px;
+    height: auto;
+    border: 1px solid var(--outer);
+    flex-direction: column;
+    
+}
+
+.planets>div>img {
+    
+    width: 80%;
+    height: auto;
+    padding: 10px;
+    margin: auto;
+    
+}
+.planets>div>h2 {
+    font-size: 1.2rem;
+    background-color: var(--space);
+    color: var(--outer);
+    text-align: center;
+    padding: 20px;
+    border: 1px solid var(--outer);
+
+}  
+
+.planets>div>p {
+    width: 80%;
+    margin: 20px auto;
+    color: var(--outer);
+}
+
+.contactmain {
+    background-image: url(/assets/views.png);
+    background-size: 200%;
+    background-position: center;
+}
+
+.cuña {
+    color: var(--white);
+    background-color: var(--space);
+    background-size: 100 vw;
+    text-align: center;
+    padding: 10%;
+}
+
+.contactsection {
+    
+    margin: 0px 20vr;
+    padding: 7%;
+    background-size: 100vw;
+    color: var(--space);
+    font-size: 16px;
+}
+
+
+.contacttitle {
+    color: var(--outer);
+    opacity: 100%;
+    border: 1px solid var(--outer);
+    text-align: center;
+    padding: 20px;
+    border-radius: 50px;
+    font-size: 1.2rem;
+
+}
+form { display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid var(--outer);
+    background-color: rgba(0,0,0,0.6);    
+    opacity: 90%;
+    color: var(--outer);
+    
+    
+}
+.barra {
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+footer {
+    text-align: center;
+    background-color: var(--nasa);
+    padding-bottom: 30px;
+    padding-top: 30px;
+    color: #F8F0E0;
+}
+
+.footer {
+    text-align: center;
+}
+
+footer>span {
+    background-color: var(--white);
+    border-radius: 50%;
+    font-size: 70px;
+    padding: 15px;
+}
+
+/* TABLET */
+@media screen and (min-width:768px) and (max-width:1024px) {
+
+
+    header>img {
+        width: 300px;
+        height: auto;
+    }
+
+    header>nav>ul>li {
+        padding: 1.3em;
+        margin: 5px 0;
+    }
+
+    header>nav>ul>li>a {
+
+        font-size: 1.3rem;
+        padding: 1.1em;
+
+
+
+    }
+
+    .bienvenida {
+        margin: 5% 15%;
+        padding: 7%;
+        background-color: #F8F0E0;
+        color: var(--space);
+        border-radius: 50px;
+    }
+
+    .bio {
+        border-radius: 50px;
+        margin: 5%;
+    }
+
+    .welcometitle, .biotitle {
+        font-size: 1.4rem;
+        opacity: 100%;
+    }
+
+    p {
+        font-size: 1.2rem;
+    }
+
+    .propaganda {
+        display: flex;
+        flex-wrap:wrap;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        align-content: center;
+        
+        
+    
+    }
+    
+    .propaganda>img {
+    
+        width:300px;
+        max-width: 300px;
+        flex: 1;
+        height: auto;
+        align-self: center;
+    
+    }
+
+    .planets>div>h2 {
+        font-size: 1.4rem;
+    }
+
+}
+
+/* ESCRITORIO */
+
+@media screen and (min-width:1025px) {
+
+    header>img {
+        width: 350px;
+        height: auto;
+        margin-bottom: 1%;
+    }
+
+    header>nav>ul>li {
+        margin: 25px 0;
+    }
+
+    header>nav>ul>li>a {
+
+        font-size: 1.7rem;
+        padding: 1.2em;
+
+    }
+
+    .bienvenida {
+        margin: 5% 15%;
+        padding: 7% 8%;
+        background-color: #F8F0E0;
+        color: var(--space);
+        border-radius: 50px;
+    }
+
+    .bio {
+        margin-top: 80px;
+        margin: 80px 3%;
+        border-radius: 50px;
+    }
+
+    .welcometitle, .biotitle {
+        font-size: 1.9rem;
+        padding: 1.1em;
+    }
+
+
+
+    p {
+        font-size: 1.4rem;
+    }
+
+    .bioandpropaganda {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        padding: 10px;
+        
+    }
+    .bio {
+        flex: 3.5;
+    }
+    .propaganda {
+        flex: 2;
+        margin-top: 80px;
+        
+    }
+    .propaganda>img {
+        width: 350px;
+        height: auto;
+    }
+    .planets>div>h2 {
+        font-size: 1.9rem;
+        
+    }
+    
+}
+ 
+
+
+
+
+/* header {
+    background-color: var(--space);
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    text-align: center;
+    margin: 0px;
+    
+}
+
+
+header>img {
+    width: 250px;
+    height: auto;
+}
+
+header>nav>ul {
+
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-left: 0px;
+
+
+}
+
+header>nav>ul>li {
+    display: inline;
+    padding: 20px;
+    font-size: 20px;
+    text-transform: capitalize;
+    font-size: 16px;
+    
+}
+
+header>nav>ul>li>a {
+    color: #F8F0E0;
+    text-decoration: none;
+    text-transform: capitalize;
+    padding: 3px;
+    margin: 0px;
+    font-size: 1rem;
+
+}
+
+header>nav>ul>li:hover {
+    
+    background-color: var(--space);
+    
+}
+
+header>nav>ul>li>a:hover {
+    color: var(--space);
+    background-color: var(--white);
+    
+}
+
+main {
+    background-image: url(/assets/campfire.jpg);
+    margin-top: 0px;
+}
+
+.titulo {
+    background-color: var(--nasa);
+    color: var(--white);
+    text-align: center;
+    padding: 20px;
+    border-radius: 50px;
+    font-size: 30px;
+}
+
+.bienvenida {
+    margin: 0px 20%;
+    padding: 7%;
+    background-color: #F8F0E0;
+    opacity: 100%;
+    color: var(--space);
+    border-radius: 50px;
+}
+
+footer {
+    text-align: center;
+    background-color: var(--nasa);
+    padding-bottom: 20px;
+    padding-top: 10px;
+    color: #F8F0E0;
+}
+
+footer>span {
+    background-color: var(--white);
+    border-radius: 50%;
+    font-size:70px;
+    padding: 15px;
+} */
